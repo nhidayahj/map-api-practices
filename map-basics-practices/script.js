@@ -1,9 +1,6 @@
-// sg latlng 
-let singapore = [1.35, 103.85 ]
-// "map must be ID"
-let map = L.map("sg-map")
-//2nd variable is to set the center point 
-map.setView(singapore, 13)
+let london = [52.2, 0.121]
+let map = L.map("london-map");
+map.setView(london, 13);
 
 // setup the tile layers
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
